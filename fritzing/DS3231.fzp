@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module fritzingVersion="0.4.1b.07.17.4356" moduleId="DS3231_ed1a26443dae44cc3e7122628a07a457_4" referenceFile="Barometric Pressure Sensor.fzp">
+ <author>niccolo@rigacci.org</author>
+ <title>DS3231 AT24C32 Real Time Clock</title>
+ <label>RTC</label>
+ <date>Sat Jun 18 2016</date>
+ <tags>
+  <tag>I2C</tag>
+  <tag>Real Time Clock</tag>
+  <tag>RTC</tag>
+ </tags>
+ <properties>
+  <property name="family">RTC</property>
+  <property name="variant">1</property>
+  <property name="bus">I2C</property>
+ </properties>
+ <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'DejaVu Sans'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Sans Serif';">Real-time clock basedo on chip DS3231, plus memory chip AT24C32 (32 Kb storage capacity). On-chip temperature sensor with an accuracy of ±3 ℃, I2C bus interface maximum speed: 400 kHz. Operating voltage: 3.3 V to 5.5 V with battery backup capabilities.&lt;/span>&lt;/p>&lt;/body>&lt;/html></description>
+ <views>
+  <iconView>
+   <layers image="icon/DS3231_58dc7882abdd842f43ed79ad11fec4d9_5_icon.svg">
+    <layer layerId="icon"/>
+   </layers>
+  </iconView>
+  <schematicView>
+   <layers image="schematic/DS3231_58dc7882abdd842f43ed79ad11fec4d9_5_schematic.svg">
+    <layer layerId="schematic"/>
+   </layers>
+  </schematicView>
+  <breadboardView>
+   <layers image="breadboard/DS3231_58dc7882abdd842f43ed79ad11fec4d9_5_breadboard.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </breadboardView>
+  <pcbView>
+   <layers image="pcb/DS3231_58dc7882abdd842f43ed79ad11fec4d9_5_pcb.svg">
+    <layer layerId="copper0"/>
+    <layer layerId="silkscreen"/>
+    <layer layerId="copper1"/>
+   </layers>
+  </pcbView>
+ </views>
+ <connectors>
+  <connector type="male" id="connector3" name="SDA">
+   <description>Serial Data</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector3pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector3pin" layer="schematic" terminalId="connector3terminal"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector3pin" layer="copper1"/>
+     <p svgId="connector3pin" layer="copper0"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector4" name="VCC">
+   <description>DC Power 3.3 V to 5.5 V</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector4pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector4pin" layer="schematic" terminalId="connector4terminal"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector4pin" layer="copper1"/>
+     <p svgId="connector4pin" layer="copper0"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector5" name="GND">
+   <description>Ground</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector5pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector5pin" layer="schematic" terminalId="connector5terminal"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector5pin" layer="copper1"/>
+     <p svgId="connector5pin" layer="copper0"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector0" name="32K">
+   <description>TCXO frequency output from 32kHz crystal oscillator</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector0pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector0pin" layer="schematic" terminalId="connector0terminal"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector0pin" layer="copper1"/>
+     <p svgId="connector0pin" layer="copper0"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector1" name="SQW">
+   <description>Programmable Square-Wave Output</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector1pin" layer="breadboard" terminalId="connector1terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector1pin" layer="schematic" terminalId="connector1terminal"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector1pin" layer="copper1"/>
+     <p svgId="connector1pin" layer="copper0"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector2" name="SCL">
+   <description>Serial Clock Input</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector2pin" layer="breadboard" terminalId="connector2terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector2pin" layer="schematic" terminalId="connector2terminal"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector2pin" layer="copper1"/>
+     <p svgId="connector2pin" layer="copper0"/>
+    </pcbView>
+   </views>
+  </connector>
+ </connectors>
+</module>

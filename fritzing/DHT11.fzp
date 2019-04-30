@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module fritzingVersion="0.7.5b.07.02.6130" referenceFile="DHT11_Temperature_and_Humitidy_Sensor__c8d8589d35f4e2e6529ca1ed6d818736.fzp" moduleId="41f4209de2050129a62e62f6e2389ac4">
+ <author>John De Cristofaro for Adafruit Industries</author>
+ <title>DHT11 Humitidy and Temperature Sensor</title>
+ <label>DHT11</label>
+ <date>czw. maj 3 2018</date>
+ <url>https://www.adafruit.com/products/386</url>
+ <tags>
+  <tag>DHT11</tag>
+  <tag>humidity</tag>
+  <tag>temperature</tag>
+  <tag>relative</tag>
+ </tags>
+ <properties>
+  <property name="family">sensors</property>
+  <property name="part number"></property>
+  <property name="layer"></property>
+  <property name="variant">variant 1</property>
+ </properties>
+ <description>DHT11 Humidity and Temperature Sensor</description>
+ <views>
+  <iconView>
+   <layers image="icon/prefix0000_add7b9ec069cd5109758d2e094fb2e1c_1_icon.svg">
+    <layer layerId="icon"/>
+   </layers>
+  </iconView>
+  <breadboardView>
+   <layers image="breadboard/prefix0000_add7b9ec069cd5109758d2e094fb2e1c_1_breadboard.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </breadboardView>
+  <schematicView>
+   <layers image="schematic/prefix0000_add7b9ec069cd5109758d2e094fb2e1c_1_schematic.svg">
+    <layer layerId="schematic"/>
+   </layers>
+  </schematicView>
+  <pcbView>
+   <layers image="pcb/prefix0000_add7b9ec069cd5109758d2e094fb2e1c_1_pcb.svg">
+    <layer layerId="copper0"/>
+    <layer layerId="copper1"/>
+    <layer layerId="silkscreen"/>
+   </layers>
+  </pcbView>
+ </views>
+ <connectors>
+  <connector id="connector3" type="male" name="NULL">
+   <description>no connection</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector3"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector3pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" svgId="connector3pad"/>
+     <p layer="copper0" svgId="connector3pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector4" type="male" name="GND">
+   <description>Ground</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector4"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector4pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" svgId="connector4pad"/>
+     <p layer="copper0" svgId="connector4pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector1" type="male" name="VDD">
+   <description>Supply voltage</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector1"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector1pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" svgId="connector1pad"/>
+     <p layer="copper0" svgId="connector1pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector2" type="male" name="DATA">
+   <description>Data signal</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector2"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector2pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" svgId="connector2pad"/>
+     <p layer="copper0" svgId="connector2pad"/>
+    </pcbView>
+   </views>
+  </connector>
+ </connectors>
+</module>
